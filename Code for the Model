@@ -1,0 +1,9 @@
+
+def Multiplication_table(input,max):
+    n=max+1
+    for times in range(1,n):
+        timetable=times*input;
+        print("%s*%s=%s" %(input,times,timetable))
+Enter_Number=int(input("Enter the Times Table figure(e.g 2 times table) "))
+Enter_MaxTimeTable=int(input("Enter maximum times of the time table(e.g you can enter number more than 12) "))
+Multiplication_table(Enter_Number,Enter_MaxTimeTable)
